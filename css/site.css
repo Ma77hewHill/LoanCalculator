@@ -1,7 +1,7 @@
 
 :root{
-    --primary-color: #6495ED;
-    --secondary-color: #ff993b;
+    --primary-color: #8C52FF; 
+    --secondary-color: #9AEBD5ED; 
     --dark-color: #292929;
     --white-color: #ffffff;
 }
@@ -38,19 +38,19 @@ footer .social>a:hover{
 }
 
 .bsicon{
-    color:purple;
+    color:#563d7c;
 }
 
 .jsicon{
-    color:rgb(226,211,4);
+    color:#F0DB4F;
 }
 
 .html5icon{
-    color: orangered;
+    color: #e34c26;
 }
 
 .cssicon{
-    color:rgb(11,28,214);
+    color:#264de4;
 }
 
 .checklist >li i{
@@ -74,3 +74,5 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+
+
