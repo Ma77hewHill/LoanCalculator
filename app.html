@@ -50,9 +50,35 @@
 <main class="flex-shrink-0">
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="bg-light col-4 ">
+                <form>
+                    <div class="form-group">
+                        <label>Home Value</label>
+                        <input type="number" class="autocomplete form-control" id="homeValue">
+                    </div>
+                    <div class="form-group">
+                        <label>Down Payment</label>
+                        <input type="number" class="autocomplete form-control" id="downPayment">
+                    </div>
+                    <div class="form-group">
+                        <label>Loan Amount</label>
+                        <input type="number" class="autocomplete form-control" id="loanAmount" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>Interest Rate</label>
+                        <input type="text" class="autocomplete form-control" id="interestRate">
+                    </div>
+                    <div class="form-group">
+                        <label>Loan Duration</label>
+                        <input type="number" class="autocomplete form-control" id="loanDuration">
+                    </div>
+                </form>
+                <p></p>
+                <button class="form-group btn btn-large btn-color text-light" type="submit">Calculate</button>
             </div>
-        <div class="col-4"></div>
+        <div class="col-8 bg-light">
+            <h1 class="pl-3">Your Monthly Payments</h1>
+        </div>
         </div>
     </div>
 </main>
